@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+<Description about="urn:mozilla:install-manifest">
+ <em:id>messagestyle-sanity@addons.instantbird.org</em:id>
+ <em:name>Sanity</em:name>
+ <em:version>1.0</em:version>
+ <em:description>Sanity 1.0</em:description>
+ <em:creator>Nathan Rijksen (nathanr)</em:creator>
+ <em:iconURL>chrome://sanity-style/skin/icon.png</em:iconURL>
+ <em:targetApplication>
+  <Description>
+   <em:id>{33cb9019-c295-46dd-be21-8c4936574bee}</em:id>
+    <em:minVersion>1.5</em:minVersion>
+    <em:maxVersion>1.5</em:maxVersion>
+  </Description>
+ </em:targetApplication>
+</Description>
+
+</RDF>
